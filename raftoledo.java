@@ -8,7 +8,7 @@ package easy;
 import javax.swing.JOptionPane;
 
 /**
- *
+ *uuuu
  * @author estudiante
  */
 public class Easy {
@@ -21,39 +21,39 @@ public class Easy {
        n=Integer.parseInt(JOptionPane.showInputDialog("ingrese tamaño del arreglo"));
        int vect[]=new int[n];
        String cad="";
-       
+
         for ( i = 0; i < n; i++) {
           vect[i]=Integer.parseInt(JOptionPane.showInputDialog("ingrese numero"));
         }
-        
+
 //        for ( i = n/2; i < n; i++) {
 //            cad=cad+vect[i]+", ";
 //        }
 //        JOptionPane.showMessageDialog(null, "arreglo "+cad);
-//        
+//
 //                for ( i = 0; i < n/2; i++) {
 //            cad=cad+vect[i]+", ";
 //        }
 //        JOptionPane.showMessageDialog(null, "arreglo "+cad);
-        
-        
+
+
                 for ( i = n/2; i < n; i++) {
             cad=cad+vect[i]+", ";
         }
         JOptionPane.showMessageDialog(null, "arreglo "+cad);
-//        
+//
 //        for (i = 0; i < n; i=i+2) {
 //            JOptionPane.showMessageDialog(null,"En la posicion par " +i +" esta el numero " +vect[i]);
-//        } 
-//        
+//        }
+//
 //        for (i = 1; i < n; i=i+2) {
 //            JOptionPane.showMessageDialog(null, "En la posicion Impar " +i +" esta el numero " +vect[i]);
 //        }
-//        
+//
 //        for (i = 0; i < n; i++) {
-//            
+//
 //        }
-        
+
     }
-    
+
 }
